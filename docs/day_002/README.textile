@@ -32,11 +32,11 @@ h3. Create Rails Application
 
 h3. Write HTML Form
 
- - Install Netbeans
- - <html> <body> <form> <input> 
+* Install Netbeans
+* @<html> <body> <form> <input>@
 
-h3. Retrieve User record from the database
+h3. Retrieve User record from the database (didn't get to)
 
- - Create User model
- - Write authorize methods
+* Create User model
+* Write authorize methods
 
