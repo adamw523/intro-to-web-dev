@@ -29,14 +29,28 @@ h3. Create Rails Application
 * Install Rails
 * rails volunteer
 * configure database.yml (didn't get to)
+* Run Rails application
+* Edit index.html to show changes when visiting http://localhost:3000
 
 h3. Write HTML Form
 
 * Install Netbeans
-* @<html> <body> <form> <input>@
+* @<html> <body> <form> <input>@ (didn't get to)
 
 h3. Retrieve User record from the database (didn't get to)
 
 * Create User model
 * Write authorize methods
+
+h3. Tangents
+
+* Discussed TCP/IP addressing and ports (0 - 65353)
+* Low ports (< 1024) require root access
+* Common Ports (http://www.iana.org/assignments/port-numbers)
+** 22 - SSH
+** 53 - Domain Name Server
+** 80 - HTTP
+
+
+
 
