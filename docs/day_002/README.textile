@@ -2,10 +2,24 @@ h1. Day Two - Browser Play
 
 h2. Last Week
 
-= Web App Structure
+h3. Web App Structure
 
-* Browser
- * 
+* Browser (HTML & Javascript)
+ * Internet Explorer
+ * Firefox
+ * Safari
+
 * Application Server
+ * ASP (Microsoft)
+ * PHP 
+ * Ruby on Rails
+ * Java Server
 
 * Database
+ * mysql
+ * Microsoft SQL Server
+ * Oracle
+
+
+h2. Today
+
