@@ -27,7 +27,7 @@ h3. Create Rails Application
 
 * install Xcode tools
 * Install Rails
-* rails volunteer
+* @rails volunteer@
 * configure database.yml (didn't get to)
 * Run Rails application
 * Edit index.html to show changes when visiting http://localhost:3000
