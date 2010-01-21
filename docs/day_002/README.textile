@@ -4,31 +4,31 @@ h2. Last Week
 
 h3. Web App Structure
 
-- Browser (HTML & Javascript)
- - Internet Explorer
- - Firefox
- - Safari
+* Browser (HTML & Javascript)
+** Internet Explorer
+** Firefox
+** Safari
 
-- Application Server
- - ASP (Microsoft)
- - PHP 
- - Ruby on Rails
- - Java Server
+* Application Server
+** ASP (Microsoft)
+** PHP 
+** Ruby on Rails
+** Java Server
 
-- Database
- - mysql
- - Microsoft SQL Server
- - Oracle
+* Database
+** mysql
+** Microsoft SQL Server
+** Oracle
 
 
 h2. Today
 
 h3. Create Rails Application
 
-- install Xcode tools
-- Install Rails
-- rails volunteer
-- configure database.yml (didn't get to)
+* install Xcode tools
+* Install Rails
+* rails volunteer
+* configure database.yml (didn't get to)
 
 h3. Write HTML Form
 
