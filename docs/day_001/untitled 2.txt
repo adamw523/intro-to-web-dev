@@ -1,9 +1,0 @@
-= Last Week
-
-= Web App Structure
-
-* Browser
- * 
-* Application Server
-
-* Database

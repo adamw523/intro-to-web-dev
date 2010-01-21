@@ -1,0 +1,45 @@
+h1. Day One
+
+h3. Web App Structure
+
+* Browser (HTML & Javascript)
+** Internet Explorer
+** Firefox
+** Safari
+
+* Application Server
+** ASP (Microsoft)
+** PHP 
+** Ruby on Rails
+** Java Server
+
+* Database
+** mysql
+** Microsoft SQL Server
+** Oracle
+
+h3. Intro to SQL
+
+* Install MySQL
+* Install Sequel Pro
+* Discussed Databases / Tables / Columns (data types) / Rows of data
+* @CREATE DATABASE@
+* @CREATE TABLE@
+* @INSERT@
+* @SELECT@
+* @DELETE@
+* @UPDATE@
+* create user table @CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `nickname` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+)@
+
+h3. Tangents
+
+* Discussed Internet IP Addressing
+* @host@ command
+* @ping@ command
+* @traceroute@ command
