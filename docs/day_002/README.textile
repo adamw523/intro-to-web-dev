@@ -28,7 +28,7 @@ h3. Create Rails Application
 - install Xcode tools
 - Install Rails
 - rails volunteer
-- configure database.yml
+- configure database.yml (didn't get to)
 
 h3. Write HTML Form
 
