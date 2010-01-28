@@ -1,0 +1,18 @@
+h1. Day Three - Review
+
+h2. Last Week
+
+h3. Web App Structure
+
+* Web browswer gets HTML & Javascript from the server - 
+** Click view.. Page Source
+* Identify server IP address on command line (Terminal)
+** host google.com
+
+* Terminal
+** ssh - remote connection to computers
+** host - lookup IP address of server
+** traceroute - print out hops to reach a server
+** 
+
+h2. Today
