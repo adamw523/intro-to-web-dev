@@ -13,18 +13,16 @@ class Person
 
 end
 
-adam = Person.new
-adam.name = "Adam"
-adam.nickname = "Younger one"
-adam.birth_year = 1979
+# adam = Person.new
+# adam.name = "Adam"
+# adam.nickname = "Younger one"
+# adam.birth_year = 1979
 
-paul = Person.new
-paul.name = "Paul"
-paul.nickname = "Older one"
-paul.birth_year = 1970
+# paul = Person.new
+# paul.name = "Paul"
+# paul.nickname = "Older one"
+# paul.birth_year = 1970
 
-adam.output_info
-paul.output_info
+# adam.output_info
+# paul.output_info
 
-
-puts adam.age

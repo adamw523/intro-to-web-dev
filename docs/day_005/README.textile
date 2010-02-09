@@ -1,0 +1,27 @@
+h1. Day Five
+
+h2. Last Week
+
+h3. Ruby Programming
+
+* Ruby interpreter
+
+* irb
+
+* Components of a program
+** puts - Writes to output
+** variables
+*** Strings (eg "Hi Paul")
+*** Numbers (eg 1, 5, 300487)
+
+** loops
+** if statements
+** classes
+** require - includes code from other files
+
+
+h2. Tangents
+
+* why is it ./script/server to start application?
+** you are telling your computer to only look in the current directory, not system wide for the command that you are typing
+

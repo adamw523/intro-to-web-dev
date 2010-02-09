@@ -1,0 +1,15 @@
+h1. Day Three - Review
+
+h2. Last Week
+
+h3. Web App Structure
+
+* Web browswer gets HTML & Javascript from the server - 
+** Click view.. Page Source
+
+* Terminal
+** ssh - remote connection to computers
+** host - lookup IP address of server
+** traceroute - print out hops to reach a server
+** ping - see if a server responds (PING PONG)
+** say - make your computer say stuff
