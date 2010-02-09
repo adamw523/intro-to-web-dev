@@ -25,3 +25,4 @@ h2. Tangents
 * why is it ./script/server to start application?
 ** you are telling your computer to only look in the current directory, not system wide for the command that you are typing
 
+

@@ -2,3 +2,8 @@
   <a href="/organizations/create">create new</a>
 </p>
 <%= @orgs.length %>
+<ul>
+<% @orgs.each do |org| %>
+  <li><%= org.address %>  - <%= org.email %> </li>
+<% end %>
+</ul>
