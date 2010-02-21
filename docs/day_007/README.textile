@@ -1,23 +1,6 @@
 h1. Day Seven
 
-h2. Last Week
-
-h3. Sessions / Cookies / Hacking
-
-h4. A cookie
-
-
-h4. Components
-
-* puts
-* variables
-* methods
-* classes
-
-
-h3. Rails Devh1. Day Six
-
-h2. Last Week
+h2. Sessions / Cookies / Hacking
 
 h3. What is a cookie?
 
