@@ -1,0 +1,16 @@
+<p>
+<% if @user %>
+  <p> you are logged in as user: <%= @user.nickname %> </p>
+  <p>now we'll show you some secret stuff</p>
+  <p><a href="/login/logout">logout</a></p>
+<% else %>
+  not logged in - no secret stuff for you
+<% end %>
+</p>
+
+<form action="/login" method="post">
+  email:<input type="text" name="email"/><br/>
+  password:<input type="password" name="password"/><br/>
+
+  <input type="submit" value="login" />
+</form>

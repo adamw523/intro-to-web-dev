@@ -1,0 +1,37 @@
+h1. Day Six
+
+h2. Last Week
+
+h3. What is a cookie?
+
+* Server stores data in a users browser
+* When user visits site again, the browser sends all cookies set by that site to server
+* Cookie 
+** Name - to identify the cookie in your browser
+** Content - some data
+** Host - Server that set the cookie
+** Path - location on that site where cookie is set
+** Expiry - date when Browser will delete cookie
+
+
+h3. Sessions
+
+* A special database on the server that stores information about users
+* Session table
+** session_id - unique identifier - value stored in web browser
+** data - variables that are stored on server
+*** eg. user_id
+*** eg. favourite_color
+*** eg. City
+
+
+h3. Hacking
+
+* A hacker can pretend to be someone else by "spoofing" a cookie
+* Hacker can get your cookie by "sniffing" network traffic
+* Example traffic sniffing tool: Wireshark
+
+
+
+h2. Tangents
+
