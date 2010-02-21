@@ -2,35 +2,28 @@ h1. Day Six
 
 h2. Last Week
 
-h3. What is a cookie?
+h3. Ruby Programming
 
-* Server stores data in a users browser
-* When user visits site again, the browser sends all cookies set by that site to server
-* Cookie 
-** Name - to identify the cookie in your browser
-** Content - some data
-** Host - Server that set the cookie
-** Path - location on that site where cookie is set
-** Expiry - date when Browser will delete cookie
+h4. Two programs
 
+* ruby - Ruby interpreter
+* irb - Interactive Ruby
+** opens a shell to run ruby commands
 
-h3. Sessions
+h4. Components
 
-* A special database on the server that stores information about users
-* Session table
-** session_id - unique identifier - value stored in web browser
-** data - variables that are stored on server
-*** eg. user_id
-*** eg. favourite_color
-*** eg. City
+* puts
+* variables
+* methods
+* classes
 
 
-h3. Hacking
+h3. Rails Dev
 
-* A hacker can pretend to be someone else by "spoofing" a cookie
-* Hacker can get your cookie by "sniffing" network traffic
-* Example traffic sniffing tool: Wireshark
-
+* organizations_controller.rb
+* organizations.rb
+* index.erb
+* create.erb
 
 
 h2. Tangents
