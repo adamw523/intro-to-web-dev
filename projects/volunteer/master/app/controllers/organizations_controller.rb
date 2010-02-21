@@ -16,4 +16,8 @@ class OrganizationsController < ApplicationController
       
     end
   end
+
+  def edit
+
+  end
 end
