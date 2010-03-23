@@ -16,7 +16,7 @@ h3. Tangents
 *** git clone - checks out a copy of the source to local computers
 *** make local changes
 *** git status - tells you what changes you've made
-
+*** git add - add new files and changed files to commit
 *** git commit - commits changes back to repository
 *** git push - pushes back to the server
 
