@@ -1,0 +1,23 @@
+<html>
+  <head></head>
+  <body>
+    <div class="application_heder">
+      <h1>
+        <a href="/">
+          The Volunteer Site
+        </a>
+      </h1>
+
+      <a href="/organizations">organizations</a>
+      <% if user %>
+        <a href="/login/logout">logout</a>
+       <% else %>
+        <a href="/login">login</a>
+       <% end %>
+    </div>
+    <div class="main_content">
+      <%= yield %>
+    </div>
+    
+  </body>
+</html>
