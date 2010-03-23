@@ -1,0 +1,24 @@
+h1. Day Eight
+
+h2. Dev on Volunteer Application
+
+h3. Review
+
+* Cookies, Sessions, Hacking, etc...
+
+
+h3. Sessions
+
+h3. Tangents
+
+* git / source (version) control
+** git
+*** git clone - checks out a copy of the source to local computers
+*** make local changes
+*** git status - tells you what changes you've made
+
+*** git commit - commits changes back to repository
+*** git push - pushes back to the server
+
+** subversion
+** cvs
