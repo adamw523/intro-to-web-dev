@@ -8,6 +8,6 @@ Number of organizations: <%= @orgs.length %>
 
 <ul>
 <% @orgs.each do |org| %>
-  <li><%= org.address %>  - <%= org.email %> - <a href="/organizations/edit/<%= org.id %>">edit</a> </li>
+  <li><%= org.address %>  - created by: <%= org.user.nickname %> - <a href="/organizations/edit/<%= org.id %>">edit</a> </li>
 <% end %>
 </ul>

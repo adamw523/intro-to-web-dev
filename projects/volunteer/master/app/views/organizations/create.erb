@@ -1,9 +1,15 @@
-<form action="/organizations/create" method="post">
-  address:<input type="text" name="address"/><br/>
-  city:<input type="text" name="city"/><br/>
-  prov_st:<input type="text" name="prov_st"/><br/>
-  country:<input type="text" name="country"/><br/>
-  email:<input type="text" name="email"/><br/>
+<% if user %>
 
-  <input type="submit" value="create" />
-</form>
+  <form action="/organizations/create" method="post">
+    address:<input type="text" name="address"/><br/>
+    city:<input type="text" name="city"/><br/>
+    prov_st:<input type="text" name="prov_st"/><br/>
+    country:<input type="text" name="country"/><br/>
+    email:<input type="text" name="email"/><br/>
+
+    <input type="submit" value="create" />
+  </form>
+
+<% else %>
+  Please log in to create an org.
+<% end %>

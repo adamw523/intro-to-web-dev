@@ -6,13 +6,17 @@ class OrganizationsController < ApplicationController
   end
 
   def create
-    @org = Organization.new
+    if session[:user_id] && @user = User.find(session[:user_id])
+      @org = Organization.new
 
-    if request.post?
-      @org = Organization.create(:address => params[:address], :city => params[:city],
-        :prov_st => params[:prov_st], :country => params[:country], :email => params[:email])
+      if request.post?
+        @org = Organization.create(:address => params[:address], :city => params[:city],
+          :prov_st => params[:prov_st], :country => params[:country], :email => params[:email],
+          :user => User.find(session[:user_id]))
 
-      redirect_to '/organizations/'
+        redirect_to '/organizations/'
+      end
+    else
       
     end
   end

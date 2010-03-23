@@ -2,29 +2,36 @@ h1. Day Eight
 
 h2. Dev on Volunteer Application
 
+* Application layout file (/views/layouts/application.erb)
+
+* Created an IndexController (index_controller.rb) with 'index' method
+
+* Added root route to routes.rb
+
+* app/helpers/application_helper.rb
+** methods in this file are available to all views in the application
+** created a 'user' method for looking up the currently logged in user
+
+
 h3. Review
 
 * Cookies, Sessions, Hacking, etc...
 
-
-h3. Sessions
+h3. Volunteer Application Dev
 
 h3. Tangents
 
 * git / source (version) control
 ** git
-*** git clone - checks out a copy of the source to local computers
+*** git clone - checks out a copy of the source to local computers (git clone git@github.com:adamw523/intro-to-web-dev.git)
 *** make local changes
 *** git status - tells you what changes you've made
 *** git add - add new files and changed files to commit
 *** git commit - commits changes back to repository
 *** git push - pushes back to the server
-
 ** subversion
+*** svn checkout - checkout a copy of a repository to local computer
+*** svn status - see what has changed locally
+*** svn add - add new files to repository
+*** svn commit - commit local changes back to repository
 ** cvs
-
-
-
-
-
-safdas
